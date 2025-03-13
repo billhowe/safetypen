@@ -5,4 +5,4 @@ baseurl: "/"
 author:
   name: Candice Feldman
   email: lulusmum@gmail.com
-theme: minima
+theme: jekyll-theme-minimal
