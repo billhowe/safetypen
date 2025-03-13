@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title | default: site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+</head>
+<body>
+  <header>
+    <h1><a href="{{ site.url | append: site.baseurl }}">Exclusive Home Caretaking</a></h1>
+    <p>Professional home caretaking services in Seattle</p>
+    <nav>
+      <ul>
+        <li><a href="{{ '/#services' | relative_url }}">Our Services</a></li>
+        <li><a href="{{ '/#contact' | relative_url }}">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    {{ content }}
+  </main>
+
+  <footer>
+    <p>© 2025 Exclusive Home Caretaking. All rights reserved.</p>
+    <div id="contact">
+      <p>Contact us at: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+    </div>
+  </footer>
+</body>
+</html>
