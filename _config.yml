@@ -1,0 +1,8 @@
+title: Exclusive Home Caretaking
+description: Professional home caretaking services in the Seattle area.
+url: "https://billhowe.github.io"  # replace with your GitHub username
+baseurl: "/"
+author:
+  name: Candice Feldman
+  email: lulusmum@gmail.com
+theme: minima
